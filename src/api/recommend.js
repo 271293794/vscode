@@ -8,7 +8,7 @@ export function getRecommend() {
         // 用户的 QQ 号，未登录则为 0
         uin: 0,
         needNewCode: 1
-    })
+    }) 
 
     return jsonp(url, data, options)
 }

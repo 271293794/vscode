@@ -25,7 +25,8 @@ import { getRecommend } from 'api/recommend'
 // 请求后台成功 0 ，语义化
 import { ERR_OK } from 'api/config'
 // 轮播图小组件
-import slider from 'base/slider/slider'
+import slider from 'base/slider/slider2'
+
 
 export default {
   data() {

@@ -3,6 +3,7 @@ import originJSONP from 'jsonp'
 export default function jsonp(url, data, option) {
     // url 上可能已有部分参数，所以判断一下
     url += (url.indexOf('?') < 0 ? '?' : '&') + param(data)
+    // eslint-disable-next-line
     return new Promise((resolve, reject) => {
         originJSONP(url, option, (err, data) => {
             if (!err)
