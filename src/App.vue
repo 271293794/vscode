@@ -4,7 +4,7 @@
     <tab></tab>
     <router-view></router-view>
   </div>
-</template>
+</template>  
 
 <script>
 import MHeader from 'c/m-header/m-header'
